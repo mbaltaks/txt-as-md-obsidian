@@ -7,5 +7,6 @@ export default class TxtAsMdPlugin extends Plugin {
 
     // register the view and extensions
     this.registerExtensions(["txt"], "markdown");
+    this.registerExtensions(["markdown"], "markdown");
   }
 }
